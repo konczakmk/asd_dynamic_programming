@@ -2,6 +2,14 @@ from numpy import inf
 from math import inf
 
 """
+Podzial pracy
+
+Maja Kończak: Obliczenie maksymalnego wyniku
+
+Szymon Żukowski: Odtworzenie optymalnej ścieżki
+"""
+
+"""
 Idea
 
 Algorytm, przygotowywuje macierz dp (l. wierszy = l. ruchów + 1, l. kolumn = dłg. tablicy scores), która będzie pamiętać wszystkie (najlepsze) możliwe sumy punktów otrzymane poprzez przejście,
